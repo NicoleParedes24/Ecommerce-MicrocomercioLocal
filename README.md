@@ -65,7 +65,7 @@ git clone https://github.com/NicoleParedes24/Ecommerce-MicrocomercioLocal.git
 http://localhost:8080/microcomercio
 ```
 ---
-##🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 - Java 22.0.1
 - Tomcat 9
 - JSP, HTML, CSS, JavaScript
