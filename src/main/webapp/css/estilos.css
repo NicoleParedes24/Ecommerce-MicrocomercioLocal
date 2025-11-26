@@ -1,0 +1,210 @@
+
+h3 {
+  color: #A63A2B;
+}
+
+
+body {
+  background-color: #FAFAFA; /* fondo claro, limpio y moderno */
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-principal {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 1rem;   /* antes estaba en 2rem */
+  margin-bottom: 2rem;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+
+.menu-principal a {
+  color: #3E7C17; /* Verde hoja */
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  transition: color 0.3s ease;
+}
+
+.menu-principal a:hover {
+  color: #D94F30; /* Rojo tomate al pasar el mouse */
+}
+
+
+.imagen-banner {
+  width: 100vw;           /* ocupa todo el ancho de la pantalla */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.imagen-banner img {
+  width: 120vw;           /* ancho completo */
+  height: 100px;          /* altura pequeña: ajusta entre 150px y 250px según tu gusto */
+  object-fit: cover;      /* recorta sin deformar */
+  display: block;
+  border-radius: 0;
+}
+
+
+/* 🧵 Encabezado */
+header {
+  background-color: #FCEAC5;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #F4C430;
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  color: #D94F30;
+  margin-bottom: 0.5rem;
+}
+
+header h2.destacado {
+  font-size: 2rem;
+  color: #3E7C17;
+  margin-bottom: 0.5rem;
+}
+
+header h4#favorito {
+  font-size: 1.2rem;
+  color: #F4C430;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* 🧭 Navegación principal */
+nav {
+  margin-top: 4rem;
+}
+
+nav a {
+  color: #3E7C17;
+  background-color: #FFFBE6;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 30px;
+  padding: 8px 14px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+  border: 2px solid #F4C430;
+}
+
+nav a:hover {
+  background-color: #FFFBE6; /* mantiene el fondo beige */
+  color: #3E7C17;            /* mantiene el texto verde */
+  transform: none;           /* evita que se encoja o crezca */
+}
+
+
+
+.quienes-somos {
+  /*background-color: #FFFBE6;  fondo claro suave */
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start; /* alinea el contenido a la izquierda */
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  margin: 2rem 0;
+}
+
+.quienes-somos .contenido {
+  max-width: 600px;
+  margin-left: 2rem;
+}
+
+.quienes-somos h3 {
+  font-size: 2rem;
+  color: #A63A2B; /* rojo suave */
+  margin-bottom: 1rem;
+  font-family: 'Merriweather', serif;
+}
+
+.quienes-somos p {
+  font-size: 1.1rem;
+  color: #4B4B4B;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* 🗺️ Mapa */
+.mapa-contenedor {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.mapa-contenedor p {
+  font-size: 1.2rem;
+  color: #3E7C17;
+  margin-bottom: 1rem;
+}
+
+.mapa-contenedor iframe {
+  border: 4px solid #F4C430;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+}
+
+/* 📦 Footer */
+footer {
+  background-color: #FCEAC5;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 4px solid #F4C430;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #3E7C17;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #D94F30;
+}
+
+/* 🎠 Carrusel */
+.carrusel-grande {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carrusel-grande img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+

@@ -1,0 +1,92 @@
+/* Título principal */
+h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor general centrado */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Formulario con estilo de tarjeta */
+.login-form {
+  background-color: #f9f9f9;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Tabla centrada y amplia */
+.login-form table {
+  width: 100%;
+}
+
+/* Celdas con espacio y texto grande */
+.login-form td {
+  padding: 12px;
+  font-size: 18px;
+  color: #333;
+}
+/* Estilo para el campo de correo electrónico */
+.login-form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #6c63ff;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.login-form input[type="email"]:focus {
+  border-color: #4a42d4;
+  outline: none;
+}
+
+/* Estilo para el campo de contraseña */
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ff8a65;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  color: #333;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.login-form input[type="password"]:focus {
+  border-color: #e64a19;
+  outline: none;
+}
+
+
+/* Botones con estilo */
+.btn {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

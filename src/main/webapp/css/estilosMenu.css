@@ -1,0 +1,23 @@
+/* Navbar general */
+.navbar {
+    margin-top: 0;       /* sube la barra */
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent !important; /* fondo transparente */
+}
+
+/* Links del menú (incluye “Menú”) */
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #000;               /* color de texto (puedes cambiarlo) */
+    background-color: transparent !important; /* quitar fondo amarillo */
+    border: none !important;    /* quitar borde */
+    padding: 5px 10px;          /* opcional para compactar */
+}
+
+/* Hover opcional */
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: #3E7C17;  /* cambio de color al pasar el mouse */
+}

@@ -1,0 +1,28 @@
+
+
+
+/* === Estilos para el cuadro de bienvenida === */
+.bienvenida {
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    max-width: 400px;       /* mejor que width: 40% */
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bienvenida h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.6em;
+}
+
+.bienvenida p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+

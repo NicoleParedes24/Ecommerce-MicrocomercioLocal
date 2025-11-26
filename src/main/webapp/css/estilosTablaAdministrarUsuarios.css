@@ -1,0 +1,135 @@
+/* Tabla minimalista blanca */
+table.table {
+	width: 75%;                  /* Más ancha, casi al 100% */
+    margin: 20px auto;
+           /* Centrada y con espacio */
+    border-collapse: collapse;   
+    background-color: #FFFFFF;   /* Fondo blanco */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Sombra ligera */
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Encabezado de la tabla */
+table.table thead {
+    background-color: #F2F2F2;  /* Gris muy claro para contraste */
+    color: #333333;              /* Texto oscuro */
+    font-weight: bold;
+}
+
+table.table thead th {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Filas de la tabla */
+table.table tbody td {
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0; /* Línea gris clara entre filas */
+}
+
+/* Filas alternas */
+table.table tbody tr:nth-child(even) {
+    background-color: #FAFAFA;  /* Fondo ligeramente distinto para alternar */
+}
+
+/* Hover */
+table.table tbody tr:hover {
+    background-color: #F9F9F9;  /* Suave resaltado al pasar mouse */
+    cursor: pointer;
+}
+
+/* Acciones (iconos) */
+table.table tbody td a img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s;
+}
+
+table.table tbody td a img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+/* Contenedor general del formulario */
+.card {
+  max-width: 700px;      /* Más ancho pero no gigante */
+  margin: 2rem auto;     /* Centrado con espacio arriba y abajo */
+  border-radius: 12px;   /* Esquinas suaves */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Encabezado del formulario */
+.card-header {
+  background-color: #A63A2B; /* Marrón/rojo suave */
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 1rem;
+}
+
+/* Cuerpo del formulario */
+.card-body {
+  background-color: #FFFFFF; /* Blanco limpio */
+  padding: 2rem;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Estilo de los campos del formulario */
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #DDD;
+  padding: 0.6rem 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #A63A2B;
+  box-shadow: 0 0 8px rgba(166, 58, 43, 0.3);
+  outline: none;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Botón */
+.btn-primary {
+  background-color: #D94F30; /* Rojo tomate suave */
+  border: none;
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #A63A2B; /* Marrón/rojo del encabezado */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(166, 58, 43, 0.3);
+}
+
+/* Espaciado entre filas */
+.row.g-3 > [class*="col-"] {
+  margin-bottom: 1rem;
+}
+
+

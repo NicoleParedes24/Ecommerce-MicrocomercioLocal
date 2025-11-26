@@ -1,0 +1,67 @@
+.info-desarrolladora {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 60px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+.columna-izquierda {
+  flex: 1;
+  min-width: 300px;
+}
+
+.columna-derecha {
+  flex: 1;
+  min-width: 250px;
+  padding-left: 40px; /* mueve el contenido más hacia la izquierda */
+}
+
+.columna-derecha h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contacto-desarrollador {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contacto-desarrollador a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.contacto-desarrollador a i {
+  margin-right: 10px;
+  font-size: 24px; /* íconos más grandes */
+}
+
+.contacto-desarrollador a[href*="github"] i {
+  color: #000; /* GitHub en negro */
+}
+
+.contacto-desarrollador a[href*="facebook"] i {
+  color: #3b5998;
+}
+
+.contacto-desarrollador a[href*="instagram"] i {
+  color: #e1306c;
+}
+
+.contacto-desarrollador a[href^="mailto"] i {
+  color: #ff9800;
+}
+
+.contacto-desarrollador a:hover {
+  color: #007bff;
+}

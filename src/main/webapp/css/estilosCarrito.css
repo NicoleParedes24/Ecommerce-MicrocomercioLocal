@@ -1,0 +1,12 @@
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  gap: 20px; /* espacio entre productos */
+}
+
+.producto {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
