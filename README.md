@@ -1,4 +1,4 @@
-## 🏪 Microcomercio Local "Comercial Otavalo" (JSP + CSS + JavaScript +Java + PostgreSQLL)
+## 🏪 Microcomercio Local "Comercial Otavalo" (JSP + CSS + JavaScript +Java + PostgreSQL)
 
 Este repositorio contiene un sistema de e-commerce para un microcomercio de víveres en Otavalo, desarrollado en **JSP, HTML, CSS,  JavaScrip y Java**  ,desplegado en **Tomcat 9**, con conexión a **PostgreSQL**.  
 Permite gestionar usuarios, productos y ventas, con roles diferenciados: administrador, vendedor y cliente.
